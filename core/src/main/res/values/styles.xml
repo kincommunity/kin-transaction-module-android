@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="KinTriggerButton" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/kin_white</item>
+        <item name="android:colorBackground">@color/kin_purple</item>
+        <item name="android:textSize">@dimen/kin_trigger_button_text_size</item>
+
+
+    </style>
+
+</resources>
