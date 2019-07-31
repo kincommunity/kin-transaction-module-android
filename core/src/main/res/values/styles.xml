@@ -9,8 +9,6 @@
         <item name="android:textColor">@color/kin_white</item>
         <item name="android:colorBackground">@color/kin_purple</item>
         <item name="android:textSize">@dimen/kin_trigger_button_text_size</item>
-
-
     </style>
 
 </resources>
