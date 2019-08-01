@@ -6,5 +6,5 @@ import org.kin.sendkin.core.base.BaseView;
 
 public interface SendKinView extends BaseView {
     void updateBalance(int balance);
-    void openPopupDialogPublicAddress(@NonNull String publicAddress);
+    void showPublicAddressPopup(@NonNull String publicAddress);
 }

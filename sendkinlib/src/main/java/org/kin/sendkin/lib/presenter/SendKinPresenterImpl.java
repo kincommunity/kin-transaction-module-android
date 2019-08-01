@@ -40,6 +40,18 @@ public class SendKinPresenterImpl extends BasePresenterImpl<SendKinView> impleme
     }
 
     @Override
+    public void onShowPublicAddressClicked() {
+        final String publicAddress;
+        try {
+            publicAddress = kinManager.getPublicAddress();
+            getView().showPublicAddressPopup(publicAddress);
+        } catch (AccountError accountError) {
+            accountError.printStackTrace();
+        }
+
+    }
+
+    @Override
     public void onAttach(SendKinView view) {
         super.onAttach(view);
     }
