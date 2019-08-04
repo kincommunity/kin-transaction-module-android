@@ -48,7 +48,6 @@ public class SendKinPresenterImpl extends BasePresenterImpl<SendKinView> impleme
         } catch (AccountError accountError) {
             accountError.printStackTrace();
         }
-
     }
 
     @Override
